@@ -3,7 +3,7 @@ from django.shortcuts import render, render_to_response
 from django.http import HttpResponse, HttpRequest, Http404
 from django.template import RequestContext
 from django.conf import settings
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from payu.forms import PayUForm
 from cart.forms import OrderForm
